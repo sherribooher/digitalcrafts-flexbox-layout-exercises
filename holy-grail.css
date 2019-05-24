@@ -1,0 +1,52 @@
+#flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid black;
+  height: 100vh;
+}
+
+.header {
+  background-color: rgb(104, 199, 249);
+  flex-basis: 100%;
+  text-align: center;
+  border-bottom: 5px solid black;
+}
+
+.menu {
+  background-color: rgb(168, 6, 165);
+  flex-grow: 1;
+  border-right: 5px solid black;
+}
+
+.menu h1 {
+  text-align: center;
+}
+
+.nav {
+  list-style: none;
+}
+
+.content {
+  background-color: rgb(204, 138, 193);
+  flex-grow: 2;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.ads {
+  background-color: rgb(168, 6, 165);
+  flex-grow: 1;
+  border-left: 5px solid black;
+}
+
+.footer {
+  flex-basis: 100%;
+  background-color: rgb(104, 199, 249);
+  border-top: 5px solid black;
+}
